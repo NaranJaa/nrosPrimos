@@ -26,7 +26,7 @@ describe("Testing nros primos", () => {
           expect(JSON.parse(response.body)).toEqual({
             error: false,
             status: 200,
-            body: [2, 3, 5, 7],
+            body: [7, 5, 3, 2],
           });
           data.statusCode = response.statusCode;
           data.body = JSON.parse(body);
@@ -44,7 +44,7 @@ describe("Testing nros primos", () => {
       expect(data.body).toEqual({
         error: false,
         status: 200,
-        body: [2, 3, 5, 7],
+        body: [7, 5, 3, 2],
       });
     });
 
