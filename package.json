@@ -1,0 +1,22 @@
+{
+  "name": "nrosprimos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "test:server": "./node_modules/jasmine/bin/jasmine.js",
+    "test:server:covegare": "node spec/specs.js"
+  },
+  "author": "Genoveva Flores",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jasmine": "^4.0.2",
+    "jasmine-console-reporter": "^3.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
